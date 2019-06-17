@@ -1,0 +1,23 @@
+כתבו פונקציה Power - אשר מקבלת שני מספרים - מונה וחזקה ומחזירה תוצאה (ע״י return)
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine(power(2,2));
+	}
+	
+	
+	public static int power( int num1, int num2)
+	{
+	int result =1;
+		for (int i=0; i< num2; i++)
+		{
+			result = result *num1;
+		}
+		return result;
+	}
+}
+
