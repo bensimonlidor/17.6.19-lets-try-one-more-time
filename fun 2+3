@@ -17,3 +17,23 @@ public class Program
 
 
 
+כתבו פונקציה Min - אשר מקבלת שני מספרים ומחזירה את הקטן מביניהם (ע״י return
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine(min(8,3));
+	}
+	
+	
+	public static int min ( int num1, int num2)
+	{
+	 return (num1 < num2 ? num1 : num2);
+	}
+}
+
+
+
