@@ -1,1 +1,24 @@
 כתבו פונקציה המקבלת שני מספרים, ומחזירה את המספר הקטן ואת המספר הגדול (ע״י שימוש ב-out)
+
+
+using System;
+					
+public class Program
+{
+  public static  void numbersR( int num1, int num2, out int big, out int small)
+  { 
+	  big= 
+	  
+	  	 small=
+  }
+	public static void Main()
+	{
+		int b;
+		int s;
+		numbersR (2 , 5 ,out b, out s);
+		Console.WriteLine(b);
+		Console.WriteLine(s);
+	}
+		
+	
+}
