@@ -1,0 +1,19 @@
+כתבו פונקציה Max - אשר מקבלת שני מספרים ומחזירה את הגדול מביניהם (ע״י return)
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine(max(8,3));
+	}
+	
+	
+	public static int max ( int num1, int num2)
+	{
+	 return (num1 > num2 ? num1 : num2);// if מקוצר 
+	}
+}
+
+
+
